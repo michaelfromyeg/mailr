@@ -1,0 +1,3 @@
+[submodule "go-smtp"]
+	path = go-smtp
+	url = git@github.com:emersion/go-smtp.git
