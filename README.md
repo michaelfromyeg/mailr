@@ -4,13 +4,17 @@ Mail spoofing for fun and glory.
 
 ## About
 
-I used a forwarded e-mail to get into an event recently. It got me thinking: isn't e-mail insecure? In short, yes it is.
+I used a forwarded e-mail to get into an event recently.
+
+![The forwarded e-mail in question](./images/spoof.png)
+
+It got me thinking: isn't e-mail insecure? In short, yes it is.
 
 This repository is my attempt at automatically spoofing e-mails on your local machine.
 
 ## TO-DOs
 
-The approach is to create an SMTP server without much authentication that a user can sign-in and check (ideally on mobile).
+The approach is to create an SMTP/POP3 server without much authentication that a user can sign-in and check (ideally on mobile).
 
 Here's my approach.
 
@@ -25,3 +29,9 @@ Here's my approach.
 4. Profit
 
 At the end of this all, hopefully write a cool blog post [here](./BLOG.md).
+
+## Miscellany
+
+- ["Can I spoof e-mail?"](https://security.stackexchange.com/questions/137780/can-i-spoof-email)
+- ["Spoofing e-mail `From` address"](https://security.stackexchange.com/questions/9549/spoofing-email-from-address)
+- ["Is zero knowledge possible with web based encrypted email services?"](https://security.stackexchange.com/questions/150985/is-zero-knowledge-possible-with-webbased-encrypted-email-services)

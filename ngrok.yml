@@ -1,0 +1,7 @@
+tunnels:
+  smtp:
+    proto: tcp
+    addr: 7725
+  pop3:
+    proto: tcp
+    addr: 7110
